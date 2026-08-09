@@ -1,0 +1,14 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.ipynb_checkpoints/
+
+# ---- Vendored third-party baselines (kept locally, NOT uploaded) ----
+# cellcharter and other niche-embedding methods live under vendor/niche_embedding/.
+# Only the README explaining the layout is tracked; the vendored code itself is not.
+vendor/*
+!vendor/README.md

@@ -1,0 +1,49 @@
+# GeneSPOT core dependencies
+# Install torch / torch-geometric / torch-sparse wheels matching your
+# CUDA build first, then `pip install -r requirements.txt`.
+
+# ---- numerical / data ----
+numpy>=1.23
+scipy>=1.10
+pandas>=1.5
+scikit-learn>=1.2
+tqdm>=4.65
+joblib>=1.2
+
+# ---- single-cell / spatial omics ----
+anndata>=0.9
+scanpy>=1.9
+squidpy>=1.3
+mudata>=0.2
+spatialdata>=0.1
+spatialdata-plot>=0.1
+
+# ---- graph / geometry ----
+networkx>=3.0
+igraph>=0.10
+shapely>=2.0
+geopandas>=0.13
+rasterio>=1.3
+scikit-image>=0.20
+sknw>=0.0
+
+# ---- deep learning (CUDA wheels recommended) ----
+torch>=2.0
+torch-geometric>=2.3
+torch-sparse>=0.6
+pytorch-lightning>=2.0
+
+# ---- optimal transport ----
+POT>=0.9
+geomloss>=0.2
+
+# ---- niche-embedding methods ----
+torchgmm>=0.2
+scarches>=0.6
+
+# ---- R interop (used by SEDR / SpatialGlue / GraphST for clustering) ----
+rpy2>=3.5
+
+# ---- visualization ----
+matplotlib>=3.7
+seaborn>=0.12
