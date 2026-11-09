@@ -81,3 +81,20 @@ Inline figure outputs are retained inside the notebooks for reference.
 If you have any questions, please don't hesitate to contact us.
 E-mail: [zhiyuan@fudan.edu.cn](mailto:zhiyuan@fudan.edu.cn);
 [qizou@mail.sdu.edu.cn](mailto:qizou@mail.sdu.edu.cn).
+
+## Citation
+
+If you find GeneSPOT useful in your research, please cite our paper:
+
+**Zou, Q. et al.** Deciphering the gene-centric spatial dynamics across tissue and time with GeneSPOT. *Nature Methods* (2026). https://doi.org/10.1038/s41592-026-03308-2
+
+```bibtex
+@article{zou2026genespot,
+  title   = {Deciphering the gene-centric spatial dynamics across tissue and time with GeneSPOT},
+  author  = {Zou, Qi and others},
+  journal = {Nature Methods},
+  year    = {2026},
+  doi     = {10.1038/s41592-026-03308-2},
+  url     = {https://doi.org/10.1038/s41592-026-03308-2}
+}
+```
